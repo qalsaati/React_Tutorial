@@ -27,10 +27,10 @@ export function ColorPicker({ colors }) {
       </div>
       {selectedColor && (
         <p>
-          Selected Color: <span style={{ color: selectedColor }}>{selectedColor}</span>
+          Selected Color:{" "}
+          <span style={{ color: selectedColor }}>{selectedColor}</span>
         </p>
       )}
     </div>
   );
 }
-
